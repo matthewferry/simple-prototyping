@@ -1,0 +1,24 @@
+{
+  "name": "simple-prototyping",
+  "version": "0.0.1",
+  "description": "A simple prototyping tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp server",
+    "build": "gulp build",
+    "test": "gulp test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "change-styleguide": "git+ssh://git@github.com:change/styleguide#db2bc5575e5d01e6703646909eb6c9942dd4f58c",
+    "gulp": "^3.9.0",
+    "gulp-data": "^1.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-run": "^1.6.8",
+    "gulp-serve": "^1.0.0",
+    "gulp-spawn": "^0.3.0",
+    "gulp-swig": "^0.7.4",
+    "path": "^0.11.14"
+  }
+}

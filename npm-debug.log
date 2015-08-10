@@ -1,88 +1,32 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   'gulp-path',
-1 verbose cli   '--save-dev' ]
-2 info using npm@1.4.28
-3 info using node@v0.10.32
-4 warn package.json simple-prototyping@0.0.1 No repository field.
-5 warn package.json simple-prototyping@0.0.1 No README data
-6 verbose readDependencies using package.json deps
-7 verbose cache add [ 'gulp-path', null ]
-8 verbose cache add name=undefined spec="gulp-path" args=["gulp-path",null]
-9 verbose parsed url { protocol: null,
-9 verbose parsed url   slashes: null,
-9 verbose parsed url   auth: null,
-9 verbose parsed url   host: null,
-9 verbose parsed url   port: null,
-9 verbose parsed url   hostname: null,
-9 verbose parsed url   hash: null,
-9 verbose parsed url   search: null,
-9 verbose parsed url   query: null,
-9 verbose parsed url   pathname: 'gulp-path',
-9 verbose parsed url   path: 'gulp-path',
-9 verbose parsed url   href: 'gulp-path' }
-10 silly lockFile ae7104b2-gulp-path gulp-path
-11 verbose lock gulp-path /Users/mferry/.npm/ae7104b2-gulp-path.lock
-12 silly lockFile ae7104b2-gulp-path gulp-path
-13 silly lockFile ae7104b2-gulp-path gulp-path
-14 verbose addNamed [ 'gulp-path', '' ]
-15 verbose addNamed [ null, '*' ]
-16 silly lockFile f8995baf-gulp-path gulp-path@
-17 verbose lock gulp-path@ /Users/mferry/.npm/f8995baf-gulp-path.lock
-18 silly addNameRange { name: 'gulp-path', range: '*', hasData: false }
-19 verbose request where is /gulp-path
-20 verbose request registry https://registry.npmjs.org/
-21 verbose request id 79db805e8337c639
-22 verbose url raw /gulp-path
-23 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-path' ]
-24 verbose url resolved https://registry.npmjs.org/gulp-path
-25 verbose request where is https://registry.npmjs.org/gulp-path
-26 info trying registry request attempt 1 at 13:25:58
-27 http GET https://registry.npmjs.org/gulp-path
-28 http 404 https://registry.npmjs.org/gulp-path
-29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-29 verbose headers   'content-type': 'application/json',
-29 verbose headers   'cache-control': 'max-age=0',
-29 verbose headers   'content-length': '51',
-29 verbose headers   'accept-ranges': 'bytes',
-29 verbose headers   date: 'Wed, 08 Jul 2015 20:25:00 GMT',
-29 verbose headers   via: '1.1 varnish',
-29 verbose headers   age: '0',
-29 verbose headers   connection: 'keep-alive',
-29 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
-29 verbose headers   'x-cache': 'MISS',
-29 verbose headers   'x-cache-hits': '0',
-29 verbose headers   'x-timer': 'S1436387100.310244,VS0,VE39' }
-30 silly registry.get cb [ 404,
-30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-30 silly registry.get     'content-type': 'application/json',
-30 silly registry.get     'cache-control': 'max-age=0',
-30 silly registry.get     'content-length': '51',
-30 silly registry.get     'accept-ranges': 'bytes',
-30 silly registry.get     date: 'Wed, 08 Jul 2015 20:25:00 GMT',
-30 silly registry.get     via: '1.1 varnish',
-30 silly registry.get     age: '0',
-30 silly registry.get     connection: 'keep-alive',
-30 silly registry.get     'x-served-by': 'cache-sjc3120-SJC',
-30 silly registry.get     'x-cache': 'MISS',
-30 silly registry.get     'x-cache-hits': '0',
-30 silly registry.get     'x-timer': 'S1436387100.310244,VS0,VE39' } ]
-31 silly lockFile f8995baf-gulp-path gulp-path@
-32 silly lockFile f8995baf-gulp-path gulp-path@
-33 error 404 404 Not Found: gulp-path
-33 error 404
-33 error 404 'gulp-path' is not in the npm registry.
-33 error 404 You should bug the author to publish it
-33 error 404 It was specified as a dependency of 'simple-prototyping'
-33 error 404
-33 error 404 Note that you can also install from a
-33 error 404 tarball, folder, or http url, or git url.
-34 error System Darwin 14.3.0
-35 error command "node" "/usr/local/bin/npm" "install" "gulp-path" "--save-dev"
-36 error cwd /Users/mferry/work/simple_prototyping
-37 error node -v v0.10.32
-38 error npm -v 1.4.28
-39 error code E404
-40 verbose exit [ 1, true ]
+1 verbose cli [ 'node', '/Users/mferry/.nvm/v0.10.30/bin/npm', 'start' ]
+2 info using npm@2.13.3
+3 info using node@v0.10.30
+4 verbose stack Error: Failed to parse json
+4 verbose stack Trailing comma in object at 28:3
+4 verbose stack   }
+4 verbose stack   ^
+4 verbose stack     at parseError (/Users/mferry/.nvm/v0.10.30/lib/node_modules/npm/node_modules/read-package-json/read-json.js:379:11)
+4 verbose stack     at parseJson (/Users/mferry/.nvm/v0.10.30/lib/node_modules/npm/node_modules/read-package-json/read-json.js:68:23)
+4 verbose stack     at /Users/mferry/.nvm/v0.10.30/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
+4 verbose stack     at evalmachine.<anonymous>:271:14
+4 verbose stack     at /Users/mferry/.nvm/v0.10.30/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/graceful-fs.js:102:5
+4 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+5 verbose cwd /Users/mferry/work/simple_prototyping
+6 error Darwin 14.3.0
+7 error argv "node" "/Users/mferry/.nvm/v0.10.30/bin/npm" "start"
+8 error node v0.10.30
+9 error npm  v2.13.3
+10 error file /Users/mferry/work/simple_prototyping/package.json
+11 error code EJSONPARSE
+12 error Failed to parse json
+12 error Trailing comma in object at 28:3
+12 error   }
+12 error   ^
+13 error File: /Users/mferry/work/simple_prototyping/package.json
+14 error Failed to parse package.json data.
+14 error package.json must be actual JSON, not just JavaScript.
+14 error
+14 error This is not a bug in npm.
+14 error Tell the package author to fix their package.json file. JSON.parse
+15 verbose exit [ 1, true ]

@@ -12,10 +12,8 @@
         {% include "./partials/header.swg" %}
       {% endblock %}
     </div>
-    <div class="table-row table-row-expand js-pjax-view position-relative">
-      <div class="animate-panel">
-        {% block content %}{% endblock %}
-      </div>
+    <div class="table-row table-row-expand">
+      {% block content %}{% endblock %}
     </div>
     <div class="table-row">
       {% block footer %}

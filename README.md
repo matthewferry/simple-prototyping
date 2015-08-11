@@ -21,7 +21,3 @@ automatically parse the file and add it to the public server directory.
 By default, only an index.html file is included which shows you a very basic
 page. You can use swig for templating and front-matter for adding data to your
 pages.
-
-Additionally, there are some basic partials included in `src/templates/partials`
-like the Change.org header and footer. You can add any other partials you want
-here.
